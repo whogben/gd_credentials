@@ -1,5 +1,5 @@
 # GD Credentials
-### A Godot addon for storoing credentials like passwords and API keys.
+### A Godot addon for storing credentials like passwords and API keys.
 
 The new Credentials node can be added to any scene and used to store and retrieve sensitive information.
 
@@ -13,7 +13,7 @@ By default, an autoload singleton named "Creds" will be added to the project and
 
 Using the Creds singleton to get an API key
 ```gdscript
-var key = Creds.all_creds.get('MyAPIKey)
+var key = Creds.all_creds.get('MyAPIKey')
 ```
 
 Using your own creds node
